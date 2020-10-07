@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <title>My Webpage</title>
+        <link rel="icon" href="egypt_flag.png" type="image/icon">
+    </head>
+    <body class="bg">
+        <!--START of bootstrap code-->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;" id="navbar">
+          <a class="navbar-brand" href="index.html" id="title">Mohab website</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html" id="home">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  My Hobbies
+                </a>
+                <div id="dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="games.html">Video games</a>
+                  <a class="dropdown-item" href="programming.html">Programming</a>
+                  <a class="dropdown-item" href="tennis.html">Tennis</a>
+                  <a class="dropdown-item" href="music.html">Music</a>
+                  <!--<div class="dropdown-divider"></div>-->
+                  <!--<a class="dropdown-item" href="#">Something else here</a>-->
+                </div>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" onsubmit="sayhello(); return false;">
+              <input class="form-control mr-sm-2" id="textbox" type="text" placeholder="Type your name here" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
+            </form>
+          </div>
+        </nav>
+        <!--END of bootstrap code-->
+        <main class="container p-4">
+            <div>
+                <img src="egypt_flag.png" width="30" height="30" alt="egypt flag">
+                <p class="paragraph"> Welcome to my website, my name is mohab from egypt and this is cs50, here is my list of hobbies: </p>
+                <ul class="list_pr">
+                    <li> <a href= "games.html"> Play video games </a> <img src="download.png" width="30" height="30" alt="video game icon"> </li>
+                    <li> <a href="programming.html"> Programming </a> <img src="download1.png" width="30" height="30" alt="programming icon"> </li>
+                    <li> <a href="tennis.html"> Play tennis </a> <img src="download2.png" width="30" height="30" alt="tennis icon"> </li>
+                    <li> <a href="music.html"> Listen to music </a> <img src="download3.png" width="30" height="30" alt="music icon"> </li>
+                </ul>
+            </div>
+            <button id="light-bt" type="button" class="btn btn-light">Light Mode</button>
+            <button id="dark-bt" type="button" class="btn btn-dark">Dark Mode</button>
+        </main>
+        <script src="javascript.js"></script>
+    </body>
+</html>

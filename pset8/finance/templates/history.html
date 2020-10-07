@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Stock Price</th>
+                <th>DATE</th>
+            </tr>
+        </thead>
+        <tbody >
+            {% for transaction in transactions %}
+            <tr>
+                <th style="font-weight: noraml;">{{ transaction['symbol'] }}</th>
+                <td>{{ transaction['name'] }}</td>
+                <td>{{ transaction['amount'] }}</td>
+                <td>${{ "{:,.2f}".format(transaction['value'])  }}</td>
+                <td>{{ transaction['date'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

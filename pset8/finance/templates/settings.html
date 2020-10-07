@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <div style="text-align: left;">
+        <h5>Welcome, {{ username }}</h5>
+        <ul style="text-align: left;">
+            <li style="width: 20%;"><a class="nav-link" href="/password">Change your password</a></li>
+            <li style="width: 13%;"><a class="nav-link" href="/deposit">Deposit Cash</a></li>
+        </ul>
+    </div>
+{% endblock %}

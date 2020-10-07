@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <form action="/deposit" method="post">
+        <h5>Available Cash: {{ "${:,.2f}".format(cash) }}</h5>
+        <div class="form-group">
+            <input class="form-control" min="1" name="deposit_amount" placeholder="Deposit amount" type="number">
+        </div>
+        <button class="btn btn-primary" type="submit">Deposit</button>
+    </form>
+{% endblock %}
