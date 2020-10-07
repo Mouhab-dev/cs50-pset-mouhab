@@ -1,6 +1,8 @@
 # CS50 Problem sets Solutions
 Harvard's CS50: Introduction to Computer Science 2020 - solutions to every pset plus final project web track.
 
+You can find the materials for the course <a href='https://cs50.harvard.edu/x/2020/'>here</a> or look at the assignments specifications linked at right of every section in the table of contents. <br>
+
 ## Table Of Contents
 
 - [Problem Set 1: C](/pset1) - <a href='https://cs50.harvard.edu/x/2020/psets/1/'> Assignments 1</a>
