@@ -47,3 +47,6 @@ You can find the materials for the course <a href='https://cs50.harvard.edu/x/20
     
     
 <img src="/CS50x.png" alt="CS50 Certificate">
+
+## Academic Honesty
+The code uploaded here should be considered as a cross reference for your solution or to take an idea of how others approched the same problem. please, do not copy and pase the code mindlessly as this is considered as a violation of the <a href="https://cs50.harvard.edu/x/2020/honesty/" > Academic Honesty</a> policy of the course.
