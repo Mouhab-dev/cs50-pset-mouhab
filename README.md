@@ -44,3 +44,6 @@ You can find the materials for the course <a href='https://cs50.harvard.edu/x/20
 - [Final Project: Snyeei](https://github.com/Mouhab-dev/snyeei)
    * A web application for a home services company that gathers workers looking for jobs and clients looking for highly skilled workers in one place. <br>
     Visit [Snyeei](https://mouhabsnyeei.pythonanywhere.com/) to try it in yourself!
+    
+    
+<img src="/CS50x.png" alt="CS50 Certificate">
