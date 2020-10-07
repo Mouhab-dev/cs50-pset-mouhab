@@ -42,8 +42,8 @@ You can find the materials for the course <a href='https://cs50.harvard.edu/x/20
 - [Problem Set 8: Web](/pset8) - <a href='https://cs50.harvard.edu/x/2020/tracks/web/'> Web Tracks</a>
   * [finance](/pset8)
 - [Final Project: Snyeei](https://github.com/Mouhab-dev/snyeei)
-   * A web application for a home services company that gathers workers looking for jobs and clients looking for highly skilled workers in one place. <br>
-    Visit [Snyeei](https://mouhabsnyeei.pythonanywhere.com/) to try it in yourself!
+   * A web application for a home services company that gathers workers looking for jobs and clients looking for highly skilled workers in one place.
+   Visit [Snyeei](https://mouhabsnyeei.pythonanywhere.com/) to try it out yourself!
     
     
 <img src="/CS50x.png" alt="CS50 Certificate">
